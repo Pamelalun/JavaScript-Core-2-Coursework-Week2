@@ -14,10 +14,10 @@ let store = [
   { item: "Chocolate", price: 0.8 },
 ];
 
-let money = 1.5;
+let myPocket = 1.5  
+// my ACTUAL money is where things are taking from.
 
-let thingsICanBuy =
-  /* todo */
+let thingsICanBuy = store.filter((x)=> x.price < myPocket).map((x)=> x.item);
 
   // DO NOT EDIT BELOW THIS LINE
   console.log(
