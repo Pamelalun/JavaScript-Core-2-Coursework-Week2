@@ -16,7 +16,7 @@ let salaries = {
 
 for(salary in salaries){
   if (salaries[salary] > 50000) {
-    console.log(`${salary} : $  $[salaries[salary]]`);
+    console.log(`${salary} : $  ${salaries[salary]}`);
   }
 }
 
